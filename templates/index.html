@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Threat Intelligence</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cyber Threat Intelligence Platform </h1>
+        
+        <div class="toggle-container">
+            <button class="toggle-button" onclick="toggleScan('ip')">Scan IP</button>
+            <button class="toggle-button" onclick="toggleScan('url')">Scan URL</button>
+        </div>
+
+        <div id="ipScan" class="scan-section">
+            <input type="text" id="ipInput" placeholder="Enter IP Address">
+            <button onclick="scanIP()">Scan IP</button>
+        </div>
+
+        <div id="urlScan" class="scan-section" style="display:none;">
+            <input type="text" id="urlInput" placeholder="Enter URL">
+            <button onclick="scanURL()">Scan URL</button>
+        </div>
+        
+        <h2>Threat Logs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Type</th>
+                    <th>Value</th>
+                    <th>Severity</th>
+                    <th>Description</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody id="threatTable"></tbody>
+        </table>
+    </div>
+</body>
+</html>
