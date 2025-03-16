@@ -1,4 +1,3 @@
-# Cyber-Intelligence-Platform-
  # Cyber Threat Intelligence (CTI) Platform
 
 ## 📌 Overview
