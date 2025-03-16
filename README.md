@@ -9,6 +9,9 @@ The **Cyber Threat Intelligence (CTI) Platform** is a web-based system that coll
 - 📊 **Threat Dashboard** - Visualize threat intelligence data using graphs and charts.
 - 🔔 **Alert System** - Notify users about potential threats.
 - 🔑 **User Authentication** - Secure access using JWT-based authentication.
+##  Screenshort 
+
+![Screenshot 2025-03-16 225733](https://github.com/user-attachments/assets/e3a0cc1b-a3b3-4656-8b96-304b4f46e3ea)
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, Tailwind CSS
@@ -27,11 +30,3 @@ pip install requirements.txt
 python backend.py 
 
 
-![Screenshot 2025-03-16 225733](https://github.com/user-attachments/assets/d3102a6f-5223-456e-85bf-57f6e9bcacee)
-
-
-🔒 Security & Best Practices
-Use HTTPS for secure API communication.
-Implement Rate Limiting to prevent abuse.
-Store API keys securely in environment variables.
-Regularly update threat intelligence sources.
