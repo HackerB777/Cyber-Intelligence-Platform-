@@ -27,3 +27,11 @@ pip install requirements.txt
 python backend.py 
 
 
+![Screenshot 2025-03-16 225733](https://github.com/user-attachments/assets/d3102a6f-5223-456e-85bf-57f6e9bcacee)
+
+
+🔒 Security & Best Practices
+Use HTTPS for secure API communication.
+Implement Rate Limiting to prevent abuse.
+Store API keys securely in environment variables.
+Regularly update threat intelligence sources.
