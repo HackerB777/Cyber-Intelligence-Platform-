@@ -32,27 +32,9 @@ h1 {
     font-weight: bold;
     
 }
-h1 {
-    color: transparent;
-    -webkit-text-stroke: 3px rgb(236, 225, 236);
-    position: relative;
-}
-h1::before {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    overflow: hidden;
-    color: rgb(238, 230, 238);
-    border-right: 8px solid rgb(233, 224, 233);
-    transition: 1s ease-in-out;
 
-}
-h1:hover::before {
-    width: 100%;
-    filter: drop-shadow(0 0 5px rgb(234, 229, 234));
 
-}
+
 @media (max-width: 600px) {
     .container {
         width: 100%;
